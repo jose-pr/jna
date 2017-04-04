@@ -131,16 +131,16 @@ cp -a doc/javadoc/* %{buildroot}%{_javadocdir}/%{name}
 
 
 %changelog
-* Tue Apr 04 2017 Jose A <dev@alacan.me>
-- 
-
-* Tue Apr 04 2017 Jose A <dev@alacan.me> 4.4.1-1
-- src (dev@alacan.me)
-
 * Tue Apr 04 2017 Jose A <dev@alacan.me> 4.4.0-1
 - new package built with tito
 
-* Tue Apr 04 2017 Jose A <dev@alacan.me> 4.4.0-1
+* Tue Apr 04 2017 Jose A <dev@alacan.me>
+- new package built with tito
+
+* Tue Apr 04 2017 Jose A <dev@alacan.me>
+- new package built with tito
+
+* Tue Apr 04 2017 Jose A <dev@alacan.me>
 - new package built with tito
 
 * Tue Mar 28 2017 Michael Simacek <msimacek@redhat.com> - 4.4.0-1
