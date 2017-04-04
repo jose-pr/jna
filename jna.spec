@@ -1,5 +1,5 @@
 Name:           jna
-Version:        4.4.1
+Version:        4.4.0
 Release:        1%{?dist}
 Summary:        Pure Java access to native libraries
 # Most of code is dual-licensed under either LGPL 2.1 only or Apache
@@ -131,6 +131,9 @@ cp -a doc/javadoc/* %{buildroot}%{_javadocdir}/%{name}
 
 
 %changelog
+* Tue Apr 04 2017 Jose A <dev@alacan.me>
+- 
+
 * Tue Apr 04 2017 Jose A <dev@alacan.me> 4.4.1-1
 - src (dev@alacan.me)
 
