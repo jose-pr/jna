@@ -1,0 +1,24 @@
+From 4a4aae7689b217a0057608667eb03d2eea3f3eba Mon Sep 17 00:00:00 2001
+From: Michael Simacek <msimacek@redhat.com>
+Date: Mon, 16 Jan 2017 11:32:32 +0100
+Subject: [PATCH 3/4] Tests headless
+
+---
+ build.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/build.xml b/build.xml
+index 09aeac2..d9be501 100644
+--- a/build.xml
++++ b/build.xml
+@@ -1008,6 +1008,7 @@ osname=macosx;processor=x86;processor=x86-64;processor=ppc
+       <sysproperty key="jna.builddir" file="${build}"/>
+       <sysproperty key="jna.nativedir" file="${build.native}"/>
+       <jvmarg value="${vmopt.arch}"/>
++      <jvmarg value="-Djava.awt.headless=true"/>
+       <classpath><path refid="test.runpath"/></classpath>
+       <formatter type="brief" usefile="false"/>
+       <formatter type="xml"/>
+-- 
+2.9.3
+

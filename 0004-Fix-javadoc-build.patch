@@ -1,0 +1,24 @@
+From 5fb86e7e8a37d8215d16480672a39e3ba75bd79d Mon Sep 17 00:00:00 2001
+From: Michael Simacek <msimacek@redhat.com>
+Date: Tue, 31 Jan 2017 14:21:19 +0100
+Subject: [PATCH 4/4] Fix javadoc build
+
+---
+ build.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/build.xml b/build.xml
+index d9be501..bbb93a3 100644
+--- a/build.xml
++++ b/build.xml
+@@ -1113,6 +1113,7 @@ osname=macosx;processor=x86;processor=x86-64;processor=ppc
+       <group title="Platform Specific" packages="com.sun.jna.platform.*"/>
+ 
+       <arg value="-notimestamp"/>
++      <arg value="--allow-script-in-comments"/>
+     </javadoc>
+     <jar jarfile="${platform-javadoc-jar}">
+       <fileset dir="${javadoc}" />
+-- 
+2.9.3
+
