@@ -134,6 +134,9 @@ cp -a doc/javadoc/* %{buildroot}%{_javadocdir}/%{name}
 * Tue Apr 04 2017 Jose A <dev@alacan.me> 4.4.0-1
 - new package built with tito
 
+* Tue Apr 04 2017 Jose A <dev@alacan.me> 4.4.0-1
+- new package built with tito
+
 * Tue Mar 28 2017 Michael Simacek <msimacek@redhat.com> - 4.4.0-1
 - Update to upstream version 4.4.0
 
