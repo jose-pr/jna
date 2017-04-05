@@ -131,6 +131,9 @@ cp -a doc/javadoc/* %{buildroot}%{_javadocdir}/%{name}
 
 
 %changelog
+* Tue Apr 04 2017 Jose A <dev@alacan.me>
+- 
+
 * Tue Apr 04 2017 Jose A <dev@alacan.me> 4.4.0-1
 - new package built with tito
 
